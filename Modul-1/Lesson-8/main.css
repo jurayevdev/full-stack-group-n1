@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+header {
+    background: aqua;
+}
+
+.container{
+    /* width: 1440px; */
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.item{
+    list-style-type: none;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro{
+    padding: 20px;
+}
+
+.card{
+    background-color: white;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 0px 0px 10px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.name{
+    font-size: 10px;
+}
+
+.card span{
+    font-size: 12px;
+    text-decoration: solid gray line-through;
+    color: gray;
+}
+
+.card p{
+    margin: 0;
+}
+
+.card-child{
+    padding: 10px;
+}
+
+.button-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: green;
+}
+
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
